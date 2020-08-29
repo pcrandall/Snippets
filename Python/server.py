@@ -17,9 +17,9 @@ if args == 0:
     print("Usage: ./server.py <port>")
     exit()
 
-#print("here are your args ", sys.argv[1])
+print("here are your args ", sys.argv[1])
 
-PORT = sys.argv[1]
+PORT = int(sys.argv[1])
 
 # Create an object of the above class
 handler_object = MyHttpRequestHandler
